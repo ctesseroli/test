@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* .vjs-control-bar,
+.vjs-big-play-button,
+.vjs-error-display,
+.vjs-modal-dialog,
+.vjs-loading-spinner {
+  display: none !important;
+} */
+
+#player_id,
+#player_id video {
+  width: 100%;
+  height: 560px;
+  border-radius: 0;
+  margin: 0 auto;
+}
+
+.wrapper .vjs-big-play-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inputContainer {
+  display: flex;
+  margin: 20px;
+}
+
+.inputContainer input {
+  width: 100%;
+}
+
+.error {
+  color: rgb(196, 17, 17);
+}
+
+.sources {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.source {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.currentSource {
+  margin-top: 40px;
+}
